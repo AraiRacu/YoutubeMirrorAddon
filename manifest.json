@@ -1,0 +1,23 @@
+{
+    "name":"RacoonStudioYoutubeMirror",
+    "short_name":"Youtube_Mirror",
+    "description":"YoutubeMirror_forDancePractice",
+    "version":"0.1.0",
+    "manifest_version":3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+
+    "content_scripts":[
+        {
+            "matches":["https://www.youtube.com/watch*"],
+            "css":[
+                "css/content_scripts.css"
+            ],
+            "js":[
+                "js/jquery-3.6.3.min.js",
+                "js/content_scripts.js"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+#movie_player.mirroring{
+    transform: rotateY(180deg) !important;
+}
